@@ -8,7 +8,7 @@
         // 默认设置选项
         var setting = {
         		// 控制轮播的动画时间
-            speed: 1000,
+            speed: 1850,
             // 控制 interval 的时间 (轮播速度)
             interval: 2000,
             
@@ -20,7 +20,7 @@
             { $zIndex: 1, width: 330, height: 330, top: 105, left: 86, $opacity: 0.2 },
             { $zIndex: 2, width: 350, height: 350, top: 94, left: -200, $opacity: 0.4 },
             { $zIndex: 3, width: 410, height: 410, top: 70, left: -50, $opacity: 0.7 },
-            { $zIndex: 4, width: 480, height: 480, top: 35, left: 130, $opacity: 1 },
+            { $zIndex: 4, width: 480, height: 480, top: 35, left: 140, $opacity: 1 },
             { $zIndex: 3, width: 410, height: 410, top: 70, left: 400, $opacity: 0.7 },
             { $zIndex: 2, width: 350, height: 350, top: 94, left: 601, $opacity: 0.4 },
             { $zIndex: 1, width: 330, height: 330, top: 105, left: 450, $opacity: 0.2 }
@@ -41,7 +41,7 @@
             clearInterval(timer);
             timer = null;
         }).on('mouseleave', function() {
-            autoPlay();
+            //autoPlay();
         });
 
         move();
