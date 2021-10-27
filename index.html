@@ -15,8 +15,10 @@ EMAIL: byvictor@uci.edu
    <!-- you would link to an external stylesheet here! -->
 
   <!-- STYLESHEETS -->
-  <!-- Font Styles & more -->
+  <!-- Font Styles -->
   <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
   <!-- Position Styles -->
   <link href="css/slider.css" rel="stylesheet" type="text/css"/>
   <!-- Navigation Bar Style -->
@@ -31,34 +33,29 @@ EMAIL: byvictor@uci.edu
   <title>Bianca Victoria Portfolio</title>
   <script src="jquery.min.js"></script>
   <style>
-      
 
+    
   </style>
 </head>
 <body>
 
-  <div class="title">
-  <h1> BIANCA VICTORIA </h1>
-  </div>
-    
-  <!--Navigation Bar-->
-  <div class="topnav">
-    <a class="active" href="index.html">PROJECTS</a>
-    <a href="graphics.html">GRAPHICS</a>
-    <a href="about.html">ABOUT</a>
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left;"> 
+        <h1> BIANCA VICTORIA </h1>
+    </div>
+    <div style="margin-left: 50%; height: 100px;"> 
+        <div class="topnav">
+          <a class="active" href="index.html">PROJECTS</a>
+          <a href="graphics.html">GRAPHICS</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
   </div>
 
-
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-      <h1> 
-        PEEPEE POOPOO
-        PART 222222
-      </h1>
-    hello i am bonky
-  </p>
+  
 
   <!-- Creating images & Slider Creation Script-->
   <div class="slide hi-slide">
@@ -75,6 +72,8 @@ EMAIL: byvictor@uci.edu
         <li><img src="images/7.png" alt=""></li>
     </ul>
   </div>
+
+ 
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="jquery.hislide.js"></script>

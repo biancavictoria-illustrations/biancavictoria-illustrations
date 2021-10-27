@@ -1,20 +1,21 @@
 /* NAV BAR POSITION */
 .topnav {
     display: flex;
-    justify-content: center;
-    background-color: #f6f9fc;
+    /*justify-content: center;*/
+    float: right;
+    /*background-color: #f6f9fc;*/
     overflow: hidden;
 }
 
 /* TEXT */
 .topnav a {
     float: left;
-    color: #ff5da0;
+    color: #d5dfff;
     text-align: center;
-    padding: 20px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-family: 'Mukta', sans-serif;
-    font-size: 17px;
+    font-size: 1vw;
 }
 
 /* HOVERED BY MOUSE */

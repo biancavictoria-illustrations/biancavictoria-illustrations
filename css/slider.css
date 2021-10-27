@@ -1,7 +1,4 @@
-body{
-    background-image: url('../zem.jpg');
-    background-size: cover;
-}
+
 
 
 /*the slider dimension*/
@@ -12,14 +9,14 @@ body{
     width: 754px;
     height: 292px;
     border-radius: 50px;
-    margin: 115px auto 0;
+    margin: 1% auto 0;
 }
 
 /*slider button*/
 .hi-slide .hi-next,
 .hi-slide .hi-prev{
     position: absolute;
-    top: 50%;
+    top: 90%;
     width: 40px;
     height: 40px;
     margin-top: -20px;
@@ -43,7 +40,7 @@ body{
 
 /*location of left slider*/
 .hi-slide .hi-prev{ 
-    left: -60px;
+    left: -15em;
 }
 
 .hi-slide .hi-prev::before{
@@ -52,7 +49,7 @@ body{
 
 /*location of right slider*/
 .hi-slide .hi-next{
-    right: -59px;
+    right: -15em;
 }
 
 .hi-slide .hi-next::before{

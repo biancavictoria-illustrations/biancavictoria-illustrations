@@ -17,12 +17,12 @@ body{
 
 
 h1{
-    color: #1b1b1b;
+    color: #ffffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3em;
-    background-color: rgb(173, 222, 255);
+    font-size: 1.5vw;
+    /*background-color: rgb(173, 222, 255);*/
 }
 
 
