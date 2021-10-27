@@ -17,13 +17,13 @@
         $.extend(true, setting, options);
         // 规定好每张图片处于的位置和状态
         var states = [
-            { $zIndex: 1, width: 300, height: 300, top: 105, left: 86, $opacity: 0.2 },
-            { $zIndex: 2, width: 320, height: 320, top: 94, left: -100, $opacity: 0.4 },
-            { $zIndex: 3, width: 370, height: 370, top: 70, left: 10, $opacity: 0.7 },
-            { $zIndex: 4, width: 450, height: 450, top: 35, left: 150, $opacity: 1 },
-            { $zIndex: 3, width: 370, height: 370, top: 70, left: 370, $opacity: 0.7 },
-            { $zIndex: 2, width: 320, height: 320, top: 94, left: 520, $opacity: 0.4 },
-            { $zIndex: 1, width: 300, height: 300, top: 105, left: 450, $opacity: 0.2 }
+            { $zIndex: 1, width: 330, height: 330, top: 105, left: 86, $opacity: 0.2 },
+            { $zIndex: 2, width: 350, height: 350, top: 94, left: -200, $opacity: 0.4 },
+            { $zIndex: 3, width: 410, height: 410, top: 70, left: -50, $opacity: 0.7 },
+            { $zIndex: 4, width: 480, height: 480, top: 35, left: 130, $opacity: 1 },
+            { $zIndex: 3, width: 410, height: 410, top: 70, left: 400, $opacity: 0.7 },
+            { $zIndex: 2, width: 350, height: 350, top: 94, left: 601, $opacity: 0.4 },
+            { $zIndex: 1, width: 330, height: 330, top: 105, left: 450, $opacity: 0.2 }
         ];
 
         var $lis = $ele.find('li');
@@ -45,7 +45,7 @@
         });
 
         move();
-        autoPlay();
+        // autoPlay();
 
         // 让每个 li 对应上面 states 的每个状态
         // 让 li 从正中间展开
