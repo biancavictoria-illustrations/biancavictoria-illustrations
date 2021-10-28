@@ -7,25 +7,31 @@ EMAIL: byvictor@uci.edu
 -->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Bianca Victoria">
-  <meta name="description" content="Graphic design portfolio">
-  
-  
-  <!-- STYLESHEETS -->
-  <!-- Font Styles -->
-  <link href="css/style.css" rel="stylesheet" type="text/css"/>
-  <!-- Position Style -->
-  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
-  <!-- Position Styles -->
-  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
-  <!-- Navigation Bar Style -->
-  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+   <!-- RESPONSIVE DESIGN -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <meta charset="utf-8">
+   <meta name="author" content="Bianca Victoria">
+   <meta name="description" content="Graphic design portfolio">
+    <!-- you would link to an external stylesheet here! -->
 
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
-
+   <!-- SCRIPTS -->
+   <script type="text/javascript" src="js/tom.js"></script>
+ 
+   <!-- STYLESHEETS -->
+   <!-- Font Styles -->
+   <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   <!-- Site's Style -->
+   <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+   <!-- Position Styles -->
+   <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+   <!-- Navigation Bar Style -->
+   <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+   <!-- Image Pages Style -->
+   <link href="css/image-style.css" rel="stylesheet" type="text/css"/>
+ 
+   <!-- FONTS -->
+   <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
 
 
    <!-- you would also link to Bootstrap here! -->
@@ -33,34 +39,58 @@ EMAIL: byvictor@uci.edu
 </head>
 
 <body>
-  
-    <h1> 
-      BIANCA VICTORIA
-    </h1>
 
-      <!--Navigation Bar-->
-    <div class="topnav">
-      <a href="index.html">WORKS</a>
-      <a href="graphics.html">GRAPHICS</a>
-      <a class="active" href="about.html">ABOUT</a>
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left;"> 
+        <h1> BIANCA VICTORIA </h1>
+    </div>
+    <div style="margin-left: 50%; height: 100px;"> 
+        <div class="topnav">
+          <a class="active" href="index.html">PROJECTS</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+
+  <h2> 
+    TOURNAMENT OF MAGIRUS
+  </h2>
+
+
+  <p>
+    <div class="subtitle">
+      Illustration Art
     </div>
 
+    <div class="text">
+    This game is the title screen art. 
+    </div>
 
-    <h2> 
-      Tournament of Magirus
-    </h2>
+    <img src="tomImages/MainMenu.png" alt="" id="myImg">
+    <img src="tomImages/jiho.PNG" alt="" id="myImg2">
 
-    <p>
-    This game has creatures in it
-    </p>
+    <!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
 
-    <video controls>
-    <!-- webm not supported in IE or Safari -->
-      <source src="../media/goodbyeFrog.webm" type="video/webm" />
-        <source src="../media/goodbyeFrog.mp4" type="video/mp4" />
-        <img src="../media/goodbyeFrog.png" alt="A frog is tied to some balloons and flies into the sky" title="Your browser does not support the -video- tag">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
     
-    </video>
+  </p>
+
+  
+  <script>
+
+
+  </script>
+
+  
+
+
+    
 
 
 

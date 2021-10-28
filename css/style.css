@@ -3,17 +3,17 @@ html{
     font-family: 'Mukta', sans-serif;
 }
 
-p{
+/*p{
     color: #464646;
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
-}
+}*/
 
 
-body{
+/*body{
     background-color: #f6f9fc;
     color: #015272;;
-}
+}*/
 
 
 h1{
@@ -27,14 +27,14 @@ h1{
 
 
 h2{
-    color: #042388;
+    color: #f6f8ff;
     text-align: center;
     font-family: 'Mukta', sans-serif;
     font-size: 1.38em;
 }
 
 h3{
-    color: #0a0a0a;
+    color: #f8f8f8;
     font-family: 'Mukta', sans-serif;
     font-size: 1.38em;
 }
