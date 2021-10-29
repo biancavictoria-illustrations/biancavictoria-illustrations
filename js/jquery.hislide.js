@@ -10,7 +10,7 @@
         		// 控制轮播的动画时间
             speed: 1000,
             // 控制 interval 的时间 (轮播速度)
-            interval: 2000,
+            interval: 3000,
             
         };
         // 对象合并
@@ -41,7 +41,7 @@
             clearInterval(timer);
             timer = null;
         }).on('mouseleave', function() {
-            //autoPlay();
+            autoPlay();
         });
 
         move();
