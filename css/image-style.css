@@ -63,15 +63,12 @@ h3{
     width:80%;
   }
 
-/* PICTURES */
-
-
+/* TOURNAMENT OF MAGIRUS PICTURES */
 
 #MainBackground {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    
   }
 
 
@@ -170,6 +167,29 @@ h3{
     transition: 0.3s;
     width: 32%;
 }
+
+
+/* MOMENTUM PICTURES */
+#run_mom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 35%;
+    float: left;
+    margin: 0px 20px 0px 20px;;
+}
+
+#a_mom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 55%;
+    margin: 15px 0px 20px 0px;
+  
+}
+
+
+
 
 /*IMAGE GETS LARGER WHEN CLICKED*/
 
