@@ -10,22 +10,25 @@
 /* TEXT */
 .topnav a {
     float: left;
-    color: #d5dfff;
+    color: #ffffff;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-family: 'Mukta', sans-serif;
-    font-size: 1vw;
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0px 0px 0px;
 }
 
 /* HOVERED BY MOUSE */
 .topnav a:hover {
-    background-color: rgb(30, 40, 87); /*background hover*/
+    background-color: rgb(163, 163, 163); /*background hover*/
     color: rgb(255, 255, 255);           /*font color hover*/
 }
 
 /* TAB COLOR WHEN ON THAT PAGE */
 .topnav a.active{
-    background-color: #f6fbff;
-    color: rgb(7, 7, 7);
+    /*background-color: #f5f51b;*/
+    color: #f5f51b;
+    font-weight: normal;
 }

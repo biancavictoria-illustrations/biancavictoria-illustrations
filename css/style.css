@@ -1,6 +1,6 @@
 
 html{
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 
 /*p{
@@ -19,36 +19,37 @@ html{
 h1{
     color: #ffffff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 1.5vw;
+    font-family: 'Cairo', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    font-weight: normal;
+    /*font-style: oblique;*/
+    /*font-style: oblique;*/
+    
     /*background-color: rgb(173, 222, 255);*/
 }
 
 
 h2{
-    color: #f6f8ff;
-    text-align: center;
-    font-family: 'Mukta', sans-serif;
-    font-size: 1.38em;
-}
-
-h3{
-    color: #f8f8f8;
-    font-family: 'Mukta', sans-serif;
-    font-size: 1.38em;
+    color: #f5f51b;
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 24px 10px 0px;
 }
 
 h4{
     color: #0a0a0a;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 1.2em;
 }
 
 h5{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 1.2em;
 }
+
 
 /*Information Works Boxes*/
 
