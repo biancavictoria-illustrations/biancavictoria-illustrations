@@ -61,6 +61,51 @@ h3{
     
 }
 
+/* Other Websites */
+/* text PROPERTIES */
+.text3 {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #000000;
+    font-size: 1.15em;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    background-color: rgb(36, 216, 240);
+    font-weight: bold;
+}
+
+/* text POSITION in image-style */
+.text3 a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.text4 {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #000000;
+    font-size: 1.15em;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    background-color: rgb(240, 60, 135);
+    font-weight: bold;
+}
+
+/* text POSITION in image-style */
+.text4 a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
 
 /*IMAGES*/
 
